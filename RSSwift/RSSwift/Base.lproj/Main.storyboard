@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BOL-L4-de8">
+    <dependencies>
+        <deployment version="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Westhester Gov -->
+        <scene sceneID="HMg-eY-TSH">
+            <objects>
+                <tableViewController id="8Yf-3j-ttG" customClass="FeedTableViewController" customModule="RSSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="plain" rowHeight="69" sectionHeaderHeight="22" sectionFooterHeight="22" id="Yqu-3L-XDs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <color key="sectionIndexBackgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell alpha="0.49999999999999961" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="Zib-P7-uzj" detailTextLabel="mmP-pu-7dg" rowHeight="69" style="IBUITableViewCellStyleSubtitle" id="PC6-xh-fGa">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PC6-xh-fGa" id="1LH-0p-6jz">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zib-P7-uzj">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mmP-pu-7dg">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Rey-cR-C3v" kind="show" identifier="openPage" id="15C-wJ-Kg9"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="8Yf-3j-ttG" id="vyC-an-TkO"/>
+                            <outlet property="delegate" destination="8Yf-3j-ttG" id="sSe-wk-YVN"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Westhester Gov " id="qzB-2c-Ep7"/>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="oMh-7o-ZL5">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </refreshControl>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="urN-wa-huH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2196" y="-378"/>
+        </scene>
+        <!--Westchester Gov -->
+        <scene sceneID="FnQ-gE-YW5">
+            <objects>
+                <viewController id="Rey-cR-C3v" customClass="FeedPageViewController" customModule="RSSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dMK-gh-fCr"/>
+                        <viewControllerLayoutGuide type="bottom" id="IV8-xf-Sm3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Em-OQ-lv1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vqQ-E5-NbH">
+                                <rect key="frame" x="0.0" y="0.0" width="611" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IV8-xf-Sm3" firstAttribute="top" secondItem="vqQ-E5-NbH" secondAttribute="bottom" id="0se-IW-iFw"/>
+                            <constraint firstItem="vqQ-E5-NbH" firstAttribute="leading" secondItem="5Em-OQ-lv1" secondAttribute="leadingMargin" constant="-16" id="Gp4-CB-1FJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vqQ-E5-NbH" secondAttribute="trailing" constant="-27" id="hWb-6F-srh"/>
+                            <constraint firstItem="vqQ-E5-NbH" firstAttribute="top" secondItem="5Em-OQ-lv1" secondAttribute="topMargin" id="vt9-ML-6JY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Westchester Gov " id="bsM-tg-B6F">
+                        <barButtonItem key="rightBarButtonItem" title="Share " id="RT9-gz-JXE">
+                            <color key="tintColor" red="0.1505136064" green="0.51990452870000003" blue="0.71119647789999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="shareSheet:" destination="Rey-cR-C3v" id="wyj-T0-0xN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="myWebView" destination="vqQ-E5-NbH" id="lHv-mX-6ya"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kiX-oe-X5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2956" y="68"/>
+        </scene>
+        <!--Feed Web Page-->
+        <scene sceneID="Pq9-vf-wXW">
+            <objects>
+                <viewController id="5wj-L6-dzI" customClass="FeedWebPageViewController" customModule="RSSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f7s-zd-Ex5"/>
+                        <viewControllerLayoutGuide type="bottom" id="jVB-QU-PyH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qjZ-aG-EpY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P6G-4g-51q">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jVB-QU-PyH" firstAttribute="top" secondItem="P6G-4g-51q" secondAttribute="bottom" id="L7u-nf-BFA"/>
+                            <constraint firstItem="P6G-4g-51q" firstAttribute="top" secondItem="qjZ-aG-EpY" secondAttribute="topMargin" id="MX1-PX-yB0"/>
+                            <constraint firstItem="P6G-4g-51q" firstAttribute="leading" secondItem="qjZ-aG-EpY" secondAttribute="leadingMargin" constant="-16" id="SfX-kp-eSa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="P6G-4g-51q" secondAttribute="trailing" constant="-16" id="ckU-yo-Gwg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Feed Web Page" id="kAH-wO-uMw"/>
+                    <connections>
+                        <outlet property="myWebView" destination="P6G-4g-51q" id="7gt-OA-xKl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OVA-Bs-Kdk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3676" y="66"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="omF-Oq-Khp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BOL-L4-de8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Q3-yA-F6E">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8Yf-3j-ttG" kind="relationship" relationship="rootViewController" id="MpM-A2-5FJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BpK-2E-Nub" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1384" y="-378"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.1505136064" green="0.51990452870000003" blue="0.71119647789999996" alpha="1" colorSpace="calibratedRGB"/>
+</document>

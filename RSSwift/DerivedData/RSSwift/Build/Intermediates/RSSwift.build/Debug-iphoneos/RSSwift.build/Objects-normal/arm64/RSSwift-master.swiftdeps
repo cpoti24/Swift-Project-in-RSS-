@@ -1,0 +1,10 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "9cf0a3ed48bb829ba8c678b0e3c7d948"
+inputs: 
+- "/Users/jessedebiase/Desktop/RSSwift-master/RSSwift/RSSwift/FeedWebPageViewController.swift"
+- "/Users/jessedebiase/Desktop/RSSwift-master/RSSwift/RSSwift/AppDelegate.swift"
+- "/Users/jessedebiase/Desktop/RSSwift-master/RSSwift/RSSwift/NewFeedViewController.swift"
+- "/Users/jessedebiase/Desktop/RSSwift-master/RSSwift/RSSwift/FeedPageViewController.swift"
+- "/Users/jessedebiase/Desktop/RSSwift-master/RSSwift/RSSwift/FeedTableViewController.swift"
+- "/Users/jessedebiase/Desktop/RSSwift-master/RSSwift/RSSwift/NavViewController.swift"
+- "/Users/jessedebiase/Desktop/RSSwift-master/RSSwift/RSSwift/XmlParserManager.swift"

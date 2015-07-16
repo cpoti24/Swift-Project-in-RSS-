@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "26aee0b18c983bfb834a4712ddb6737c"
+inputs: 
+- "/Users/jessedebiase/Desktop/RSSwift-master/RSSwift/RSSwiftTests/RSSwiftTests.swift"

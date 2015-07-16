@@ -1,0 +1,45 @@
+### Swift dependencies file v0 ###
+provides:
+- "NewFeedViewController"
+nominals:
+- "C7RSSwift21NewFeedViewController"
+class-members:
+- "textFieldNewFeedUrl"
+- "onDataAvailable"
+- "didReceiveMemoryWarning"
+- "doneTapped"
+- "viewDidLoad"
+top-level:
+- !private "StringLiteralType"
+- "NSURL"
+- "UITextField"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- "UIViewController"
+- !private "!="
+member-access:
+- !private "Sb"
+- !private "CSo22UINavigationController"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "CSo5NSURL"
+- !private "Sq"
+- !private "CSo9UIControl"
+- "CSo11UIResponder"
+- !private "CSo6UIView"
+- !private "SQ"
+- "C7RSSwift21NewFeedViewController"
+- "CSo8NSObject"
+- !private "CSo11UITextField"
+- "CSo16UIViewController"
+- "PSs9AnyObject"
+dynamic-lookup:
+cross-module:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Security.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreImage.swiftmodule"

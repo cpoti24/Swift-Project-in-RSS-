@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C52F62411B443C1300B300E4 /* Wescthester gov logo .png in Resources */ = {isa = PBXBuildFile; fileRef = C52F62401B443C1300B300E4 /* Wescthester gov logo .png */; };
+		C58C1B6A1B4ACC4D005ED287 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C1B691B4ACC4D005ED287 /* NavViewController.swift */; };
+		F346148D19FF2F6300DB2CE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346148C19FF2F6300DB2CE3 /* AppDelegate.swift */; };
+		F346149019FF2F6300DB2CE3 /* RSSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F346148E19FF2F6300DB2CE3 /* RSSwift.xcdatamodeld */; };
+		F346149519FF2F6300DB2CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F346149319FF2F6300DB2CE3 /* Main.storyboard */; };
+		F346149719FF2F6300DB2CE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F346149619FF2F6300DB2CE3 /* Images.xcassets */; };
+		F346149A19FF2F6300DB2CE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F346149819FF2F6300DB2CE3 /* LaunchScreen.xib */; };
+		F34614A619FF2F6400DB2CE3 /* RSSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34614A519FF2F6400DB2CE3 /* RSSwiftTests.swift */; };
+		F34614B219FF309E00DB2CE3 /* FeedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34614AF19FF309E00DB2CE3 /* FeedPageViewController.swift */; };
+		F34614B319FF309E00DB2CE3 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34614B019FF309E00DB2CE3 /* FeedTableViewController.swift */; };
+		F34614B419FF309E00DB2CE3 /* FeedWebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34614B119FF309E00DB2CE3 /* FeedWebPageViewController.swift */; };
+		F34614B619FF30B500DB2CE3 /* NewFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34614B519FF30B500DB2CE3 /* NewFeedViewController.swift */; };
+		F34614B819FF30C100DB2CE3 /* XmlParserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34614B719FF30C100DB2CE3 /* XmlParserManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F34614A019FF2F6400DB2CE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F346147F19FF2F6200DB2CE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F346148619FF2F6300DB2CE3;
+			remoteInfo = RSSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C52F62401B443C1300B300E4 /* Wescthester gov logo .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wescthester gov logo .png"; path = "Images /Wescthester gov logo .png"; sourceTree = SOURCE_ROOT; };
+		C58C1B691B4ACC4D005ED287 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		F346148719FF2F6300DB2CE3 /* RSSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F346148B19FF2F6300DB2CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F346148C19FF2F6300DB2CE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F346148F19FF2F6300DB2CE3 /* RSSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RSSwift.xcdatamodel; sourceTree = "<group>"; };
+		F346149419FF2F6300DB2CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F346149619FF2F6300DB2CE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F346149919FF2F6300DB2CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F346149F19FF2F6400DB2CE3 /* RSSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34614A419FF2F6400DB2CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34614A519FF2F6400DB2CE3 /* RSSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSwiftTests.swift; sourceTree = "<group>"; };
+		F34614AF19FF309E00DB2CE3 /* FeedPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedPageViewController.swift; sourceTree = "<group>"; };
+		F34614B019FF309E00DB2CE3 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		F34614B119FF309E00DB2CE3 /* FeedWebPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedWebPageViewController.swift; sourceTree = "<group>"; };
+		F34614B519FF30B500DB2CE3 /* NewFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeedViewController.swift; sourceTree = "<group>"; };
+		F34614B719FF30C100DB2CE3 /* XmlParserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlParserManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F346148419FF2F6300DB2CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F346149C19FF2F6400DB2CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F346147E19FF2F6200DB2CE3 = {
+			isa = PBXGroup;
+			children = (
+				F346148919FF2F6300DB2CE3 /* WestchesterGov  */,
+				F34614A219FF2F6400DB2CE3 /* RSSwiftTests */,
+				F346148819FF2F6300DB2CE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F346148819FF2F6300DB2CE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F346148719FF2F6300DB2CE3 /* RSSwift.app */,
+				F346149F19FF2F6400DB2CE3 /* RSSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F346148919FF2F6300DB2CE3 /* WestchesterGov  */ = {
+			isa = PBXGroup;
+			children = (
+				F346148C19FF2F6300DB2CE3 /* AppDelegate.swift */,
+				F34614AF19FF309E00DB2CE3 /* FeedPageViewController.swift */,
+				F34614B019FF309E00DB2CE3 /* FeedTableViewController.swift */,
+				F34614B519FF30B500DB2CE3 /* NewFeedViewController.swift */,
+				F34614B119FF309E00DB2CE3 /* FeedWebPageViewController.swift */,
+				F34614B719FF30C100DB2CE3 /* XmlParserManager.swift */,
+				F346149319FF2F6300DB2CE3 /* Main.storyboard */,
+				C58C1B691B4ACC4D005ED287 /* NavViewController.swift */,
+				F346149619FF2F6300DB2CE3 /* Images.xcassets */,
+				F346149819FF2F6300DB2CE3 /* LaunchScreen.xib */,
+				C52F62401B443C1300B300E4 /* Wescthester gov logo .png */,
+				F346148E19FF2F6300DB2CE3 /* RSSwift.xcdatamodeld */,
+				F346148A19FF2F6300DB2CE3 /* Supporting Files */,
+			);
+			name = "WestchesterGov ";
+			path = RSSwift;
+			sourceTree = "<group>";
+		};
+		F346148A19FF2F6300DB2CE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F346148B19FF2F6300DB2CE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F34614A219FF2F6400DB2CE3 /* RSSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F34614A519FF2F6400DB2CE3 /* RSSwiftTests.swift */,
+				F34614A319FF2F6400DB2CE3 /* Supporting Files */,
+			);
+			path = RSSwiftTests;
+			sourceTree = "<group>";
+		};
+		F34614A319FF2F6400DB2CE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F34614A419FF2F6400DB2CE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F346148619FF2F6300DB2CE3 /* RSSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34614A919FF2F6400DB2CE3 /* Build configuration list for PBXNativeTarget "RSSwift" */;
+			buildPhases = (
+				F346148319FF2F6300DB2CE3 /* Sources */,
+				F346148419FF2F6300DB2CE3 /* Frameworks */,
+				F346148519FF2F6300DB2CE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSwift;
+			productName = RSSwift;
+			productReference = F346148719FF2F6300DB2CE3 /* RSSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F346149E19FF2F6400DB2CE3 /* RSSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34614AC19FF2F6400DB2CE3 /* Build configuration list for PBXNativeTarget "RSSwiftTests" */;
+			buildPhases = (
+				F346149B19FF2F6400DB2CE3 /* Sources */,
+				F346149C19FF2F6400DB2CE3 /* Frameworks */,
+				F346149D19FF2F6400DB2CE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34614A119FF2F6400DB2CE3 /* PBXTargetDependency */,
+			);
+			name = RSSwiftTests;
+			productName = RSSwiftTests;
+			productReference = F346149F19FF2F6400DB2CE3 /* RSSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F346147F19FF2F6200DB2CE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Westchester Gov ";
+				TargetAttributes = {
+					F346148619FF2F6300DB2CE3 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 2JAYD7953P;
+					};
+					F346149E19FF2F6400DB2CE3 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F346148619FF2F6300DB2CE3;
+					};
+				};
+			};
+			buildConfigurationList = F346148219FF2F6300DB2CE3 /* Build configuration list for PBXProject "RSSwift" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F346147E19FF2F6200DB2CE3;
+			productRefGroup = F346148819FF2F6300DB2CE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F346148619FF2F6300DB2CE3 /* RSSwift */,
+				F346149E19FF2F6400DB2CE3 /* RSSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F346148519FF2F6300DB2CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F346149519FF2F6300DB2CE3 /* Main.storyboard in Resources */,
+				F346149A19FF2F6300DB2CE3 /* LaunchScreen.xib in Resources */,
+				C52F62411B443C1300B300E4 /* Wescthester gov logo .png in Resources */,
+				F346149719FF2F6300DB2CE3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F346149D19FF2F6400DB2CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F346148319FF2F6300DB2CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34614B419FF309E00DB2CE3 /* FeedWebPageViewController.swift in Sources */,
+				F346149019FF2F6300DB2CE3 /* RSSwift.xcdatamodeld in Sources */,
+				F346148D19FF2F6300DB2CE3 /* AppDelegate.swift in Sources */,
+				F34614B619FF30B500DB2CE3 /* NewFeedViewController.swift in Sources */,
+				F34614B219FF309E00DB2CE3 /* FeedPageViewController.swift in Sources */,
+				F34614B319FF309E00DB2CE3 /* FeedTableViewController.swift in Sources */,
+				C58C1B6A1B4ACC4D005ED287 /* NavViewController.swift in Sources */,
+				F34614B819FF30C100DB2CE3 /* XmlParserManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F346149B19FF2F6400DB2CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34614A619FF2F6400DB2CE3 /* RSSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F34614A119FF2F6400DB2CE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F346148619FF2F6300DB2CE3 /* RSSwift */;
+			targetProxy = F34614A019FF2F6400DB2CE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F346149319FF2F6300DB2CE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F346149419FF2F6300DB2CE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F346149819FF2F6300DB2CE3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F346149919FF2F6300DB2CE3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F34614A719FF2F6400DB2CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F34614A819FF2F6400DB2CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F34614AA19FF2F6400DB2CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RSSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = RSSwift;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F34614AB19FF2F6400DB2CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RSSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = RSSwift;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F34614AD19FF2F6400DB2CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = RSSwiftTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSwift.app/RSSwift";
+			};
+			name = Debug;
+		};
+		F34614AE19FF2F6400DB2CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = RSSwiftTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSwift.app/RSSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F346148219FF2F6300DB2CE3 /* Build configuration list for PBXProject "RSSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34614A719FF2F6400DB2CE3 /* Debug */,
+				F34614A819FF2F6400DB2CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34614A919FF2F6400DB2CE3 /* Build configuration list for PBXNativeTarget "RSSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34614AA19FF2F6400DB2CE3 /* Debug */,
+				F34614AB19FF2F6400DB2CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34614AC19FF2F6400DB2CE3 /* Build configuration list for PBXNativeTarget "RSSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34614AD19FF2F6400DB2CE3 /* Debug */,
+				F34614AE19FF2F6400DB2CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F346148E19FF2F6300DB2CE3 /* RSSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F346148F19FF2F6300DB2CE3 /* RSSwift.xcdatamodel */,
+			);
+			currentVersion = F346148F19FF2F6300DB2CE3 /* RSSwift.xcdatamodel */;
+			path = RSSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F346147F19FF2F6200DB2CE3 /* Project object */;
+}
